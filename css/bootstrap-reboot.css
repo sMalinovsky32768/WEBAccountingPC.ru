@@ -1,0 +1,325 @@
+/*!
+ * Bootstrap Reboot v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\0000319}}
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\0000325}}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\0000335}}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\0000346}}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\0000362}}
+[tabindex="-1"]:focus {
+  outline: 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\0000372}}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\0000388}}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\0000397}}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003110}}
+abbr[title],
+abbr[data-original-title] {
+  text-decoration: underline;
+  text-decoration: underline dotted;
+  cursor: help;
+  border-bottom: 0;
+  text-decoration-skip-ink: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003119}}
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003125}}
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003132}}
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003139}}
+dt {
+  font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003143}}
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003148}}
+blockquote {
+  margin: 0 0 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003152}}
+b,
+strong {
+  font-weight: bolder; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003157}}
+small {
+  font-size: 80%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003166}}
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003174}}
+sub {
+  bottom: -.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003175}}
+sup {
+  top: -.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003182}}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/mixins\/_hover\.scss}line{font-family:\0000313}}
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003199}}
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/mixins\/_hover\.scss}line{font-family:\0000317}}
+  a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+    color: inherit;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003208}}
+  a:not([href]):not([tabindex]):focus {
+    outline: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003218}}
+pre,
+code,
+kbd,
+samp {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003226}}
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003240}}
+figure {
+  margin: 0 0 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003250}}
+img {
+  vertical-align: middle;
+  border-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003255}}
+svg {
+  overflow: hidden;
+  vertical-align: middle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003267}}
+table {
+  border-collapse: collapse; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003271}}
+caption {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #6c757d;
+  text-align: left;
+  caption-side: bottom; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003279}}
+th {
+  text-align: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003290}}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003299}}
+button {
+  border-radius: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003308}}
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003313}}
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003324}}
+button,
+input {
+  overflow: visible; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003329}}
+button,
+select {
+  text-transform: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003337}}
+select {
+  word-wrap: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003345}}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003358}}
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003365}}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003373}}
+input[type="radio"],
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003380}}
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"] {
+  -webkit-appearance: listbox; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003392}}
+textarea {
+  overflow: auto;
+  resize: vertical; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003398}}
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003413}}
+legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003425}}
+progress {
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003430}}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003435}}
+[type="search"] {
+  outline-offset: -2px;
+  -webkit-appearance: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003448}}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003457}}
+::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003466}}
+output {
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003470}}
+summary {
+  display: list-item;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003475}}
+template {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/\%23OpenServer\/OSPanel\/domains\/opencompetition\.ru\/bootstrap-4\.3\.1\/scss\/_reboot\.scss}line{font-family:\00003481}}
+[hidden] {
+  display: none !important; }

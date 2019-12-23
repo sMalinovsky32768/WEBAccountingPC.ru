@@ -1,0 +1,26 @@
+body {
+   position: absolute;
+   min-height: 100%;
+   min-width: 980px;
+   width: 100%;
+}
+
+#content {
+   padding-bottom: 4rem;
+}
+
+#center {
+   position: relative;
+   min-height: 100%;
+}
+
+#caption {
+   color: #1560bd;
+   font-weight: 400;
+}
+
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
